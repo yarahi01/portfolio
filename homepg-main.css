@@ -1,0 +1,68 @@
+section{
+  height: 300px;
+  width: 300px;
+}
+#introDiv{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0px 0px;
+}
+.introPar{
+  background-color: #c9b98d;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  font-size: 19px;
+  width: 600px;
+}
+p{
+  font-size: 12px3;
+  width: 500px;
+}
+div{
+  display: flex;
+}
+#intro{
+  text-align: center;
+  color: #00321f;
+  font-size: 35px;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 30%);
+
+}
+hr{
+  padding: 0;
+}
+
+#skills{
+  text-align: center;
+  color: #00321f;
+  font-size: 35px;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 30%);
+  }
+.ulSkill{
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px 30px -10px 30px;
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  justify-content: space-around;
+  background-color: #c9b98d;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  font-size: 19px;
+
+}
+
+
+  
+
+/* 48 title, 35 section, 24 mb
+

@@ -1,0 +1,119 @@
+/* .fixed-top-nav {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 0; 
+  background-color: #2e522a;
+  box-shadow: 2px 11px 2px 1px rgb(0 0 0 / 20%);
+}
+#ulNav{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  text-decoration: none;
+}
+.logo{
+  position: absolute ; 
+  top: 9px;
+  left: 50px;
+  height: 90px;
+}
+.liNav{
+  float: right;
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+}
+.liNav:hover{
+  background-color: #162c15;
+} */
+.fixed-top-nav {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 0; 
+  background-color: #2e522a;
+  box-shadow: 2px 11px 2px 1px rgb(0 0 0 / 20%);
+}
+#ulNav{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  text-decoration: none;
+}
+.liNav{
+  float: right;
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  
+}
+.liNav:hover{
+  background-color: #162c15;
+}
+.logo{
+  top: 11;
+  height: 110px;
+  position: absolute;
+  bottom: 0;
+  left:3 0px
+}
+body{
+  background-color:  rgba(141,166,80,1);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  color: #00321f;
+  font-size: 35px;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 30%);
+
+}
+hr{
+  padding: 0;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+#aboutMeDiv{
+  display: flex;
+  width: 100%;
+  padding: 0px 0px;
+
+border-radius: 20px;
+justify-content: space-around;
+
+}
+#aboutPar{
+  width: 300px;
+  align-self: center;
+  text-align: center;
+  border: 10px solid  #c9b98d;
+  border-radius: 20px;
+  padding: 10px;
+}
+section{
+  margin-top:40px;
+  margin-bottom: 100px;
+}
+.interestDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background: #2e522a;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
